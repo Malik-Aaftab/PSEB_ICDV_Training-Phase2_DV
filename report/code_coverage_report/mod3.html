@@ -1,0 +1,1728 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Module :: axi_lite_regfile_tb</title>
+<link type="text/css" rel="stylesheet" href="css/.urg.css">
+<link type="text/css" rel="stylesheet" href="css/.layout.css">
+<link type="text/css" rel="stylesheet" href="css/.breadcrumb.css">
+<script type="text/javascript" src="js/.jquery.js"></script>
+<script type="text/javascript" src="js/.jquery-ui.js"></script>
+<script type="text/javascript" src="js/.sortable.js"></script>
+<script type="text/javascript" src="js/.layout.js"></script>
+<script type="text/javascript" src="js/.breadcrumb.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  if ($("#north-bread-crumb")) {
+    $("#north-bread-crumb").jBreadCrumb({easing:'swing'})
+  }
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    },
+    west: {
+      size: 500,
+      resizable: true,
+      initClosed: false
+    }
+  });
+  centerLayout = $('div.ui-layout-center').layout({
+    north__paneSelector: ".ui-layout-center-inner-north",
+    center__paneSelector: ".ui-layout-center-inner-center", 
+    north__size: 50,
+    spacing_open: 4,
+    spacing_closed: 4
+  });
+});
+</script>
+</head>
+<body onLoad="initPage();"><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Module Definition</center>
+<div align="center"><a href="dashboard.html" ><b>dashboard</b></a> | <a href="hierarchy.html" ><b>hierarchy</b></a> | <a href="modlist.html" ><b>modlist</b></a> | groups | <a href="tests.html" ><b>tests</b></a> | asserts</div>
+
+</div>
+<div class="ui-layout-west">
+<div name='tag_axi_lite_regfile_tb'>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module : <a href="#"  onclick="showContent('tag_axi_lite_regfile_tb')">axi_lite_regfile_tb</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td></tr><tr>
+<td class="s8 cl rt"> 82.65</td>
+<td class="s9 cl rt"><a href="mod3.html#Line" > 93.24</a></td>
+<td class="wht cl rt"></td>
+<td class="s7 cl rt"><a href="mod3.html#Toggle" > 72.06</a></td>
+</tr></table><br clear=all>
+<span class=repname>Source File(s) : </span>
+<br clear=all>
+<a href="file:///mnt/mydata/my_axi_lite_wrapper/my_axi_lite_regfile_tb.sv" >/mnt/mydata/my_axi_lite_wrapper/my_axi_lite_regfile_tb.sv</a><br clear=all>
+<br clear=all>
+<span class=repname>Module self-instances :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td></tr><tr>
+<td class="wht cl wordwrap"><a href="mod3.html#inst_tag_3"  onclick="showContent('inst_tag_3')">top.tb</a></td>
+<td class="s8 cl rt"> 82.65</td>
+<td class="s9 cl rt"><a href="mod3.html#Line" > 93.24</a></td>
+<td class="wht cl rt"></td>
+<td class="s7 cl rt"><a href="mod3.html#Toggle" > 72.06</a></td>
+</tr></table></div>
+</div>
+<br clear=all>
+<div name='tag_axi_lite_regfile_tb'>
+<hr>
+<a name="inst_tag_3"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy.html#tag_urg_inst_3" >top.tb</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td></tr><tr>
+<td class="s8 cl rt"> 82.65</td>
+<td class="s9 cl rt"><a href="mod3.html#Line" > 93.24</a></td>
+<td class="wht cl rt"></td>
+<td class="s7 cl rt"><a href="mod3.html#Toggle" > 72.06</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td></tr><tr>
+<td class="s8 cl rt"> 82.65</td>
+<td class="s9 cl rt"> 93.24</td>
+<td class="wht cl rt"></td>
+<td class="s7 cl rt"> 72.06</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s8 cl rt"> 87.50</td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+<td class="s7 cl rt"> 75.00</td>
+<td><a href="mod4.html#inst_tag_4" >top</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td></tr><tr>
+<td colspan=5>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<hr>
+Since this is the module's only instance, the coverage report is the same as for the module.</div>
+<div class="ui-layout-center">
+<div class="ui-layout-center-inner-center">
+<div name='tag_axi_lite_regfile_tb'>
+<a name="Line"></a>
+Line Coverage for Module : <a href="mod3.html" >axi_lite_regfile_tb</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="4" width="82">
+<tr><th></th><th>Line No.</th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s9"><td class="lf">TOTAL</td><td></td><td>370</td><td>345</td><td>93.24</td></tr>
+<tr class="s8"><td class="lf">ROUTINE</td><td>29</td><td>24</td><td>20</td><td>83.33</td></tr>
+<tr class="s8"><td class="lf">ROUTINE</td><td>87</td><td>21</td><td>17</td><td>80.95</td></tr>
+<tr class="s10"><td class="lf">INITIAL</td><td>171</td><td>22</td><td>22</td><td>100.00</td></tr>
+<tr class="s8"><td class="lf">ROUTINE</td><td>32</td><td>32</td><td>28</td><td>87.50</td></tr>
+<tr class="s8"><td class="lf">ROUTINE</td><td>112</td><td>32</td><td>28</td><td>87.50</td></tr>
+<tr class="s9"><td class="lf">ROUTINE</td><td>199</td><td>33</td><td>31</td><td>93.94</td></tr>
+<tr class="s8"><td class="lf">ROUTINE</td><td>286</td><td>32</td><td>28</td><td>87.50</td></tr>
+<tr class="s10"><td class="lf">ROUTINE</td><td>370</td><td>9</td><td>9</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ROUTINE</td><td>403</td><td>10</td><td>10</td><td>100.00</td></tr>
+<tr class="s9"><td class="lf">ROUTINE</td><td>447</td><td>24</td><td>22</td><td>91.67</td></tr>
+<tr class="s10"><td class="lf">ROUTINE</td><td>693</td><td>24</td><td>24</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ROUTINE</td><td>835</td><td>51</td><td>51</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ROUTINE</td><td>943</td><td>20</td><td>20</td><td>100.00</td></tr>
+<tr class="s9"><td class="lf">ROUTINE</td><td>987</td><td>36</td><td>35</td><td>97.22</td></tr>
+</table>
+<pre class="code"><br clear=all>
+28                              // Drive transaction
+29         2/2                  @(posedge ACLK);
+30                      
+31         1/1                  axi.AWADDR  &lt;= addr;
+32         1/1                  axi.AWVALID &lt;= 1'b1;
+33                      
+34         1/1                  axi.WDATA   &lt;= data;
+35         1/1                  axi.WSTRB   &lt;= strb;
+36         1/1                  axi.WVALID  &lt;= 1'b1;
+37                      
+38         1/1                  axi.BREADY  &lt;= 1'b1;
+39                      
+40                      
+41                              // Wait for both channels to handshake
+42         1/1                  while (!(axi.AWREADY &amp;&amp; axi.WREADY))
+43         2/2                      @(posedge ACLK);
+                   <font color = "red">==>  WHILE_FALSE</font>
+44                      
+45                      
+46         2/2                  @(posedge ACLK);
+47                      
+48         1/1                  axi.AWVALID &lt;= 1'b0;
+49         1/1                  axi.WVALID  &lt;= 1'b0;
+50                      
+51                      
+52                              // Wait for write response
+53         1/1                  while (!axi.BVALID)
+54         <font color = "red">0/2     ==>              @(posedge ACLK);</font>
+                   <font color = "red">==>  WHILE_FALSE</font>
+55                      
+56                      
+57         1/1                  if (axi.BRESP !== 2'b00) begin
+58                      
+59         <font color = "red">0/1     ==>              $display(</font>
+60                                      &quot;ERROR: write addr=%0d BRESP=%b&quot;,
+61                                      addr,
+62                                      axi.BRESP
+63                                  );
+64                      
+65         <font color = "red">0/1     ==>              errors++;</font>
+66                      
+67                              end
+                        MISSING_ELSE
+68                      
+69                      
+70                              // Response handshake
+71         2/2                  @(posedge ACLK);
+72                      
+73         1/1                  axi.BREADY &lt;= 1'b0;
+74                      
+75                          endtask
+76                      
+77                      
+78                          //==================================================================
+79                          // AXI READ TASK
+80                          //==================================================================
+81                      
+82                          task automatic axi_read(
+83                              input logic [ADDR_WIDTH-1:0] addr,
+84                              output logic [DATA_WIDTH-1:0] data
+85                          );
+86                      
+87         2/2                  @(posedge ACLK);
+88                      
+89         1/1                  axi.ARADDR  &lt;= addr;
+90         1/1                  axi.ARVALID &lt;= 1'b1;
+91                      
+92         1/1                  axi.RREADY  &lt;= 1'b1;
+93                      
+94                      
+95                              // Wait for AR handshake
+96         1/1                  while (!axi.ARREADY)
+97         2/2                      @(posedge ACLK);
+                   <font color = "red">==>  WHILE_FALSE</font>
+98                      
+99                      
+100        2/2                  @(posedge ACLK);
+101                     
+102        1/1                  axi.ARVALID &lt;= 1'b0;
+103                     
+104                     
+105                             // Wait for RVALID
+106        1/1                  while (!axi.RVALID)
+107        <font color = "red">0/2     ==>              @(posedge ACLK);</font>
+                   <font color = "red">==>  WHILE_FALSE</font>
+108                     
+109                     
+110        1/1                  data = axi.RDATA;
+111                     
+112                     
+113        1/1                  if (axi.RRESP !== 2'b00) begin
+114                     
+115        <font color = "red">0/1     ==>              $display(</font>
+116                                     &quot;ERROR: read addr=%0d RRESP=%b&quot;,
+117                                     addr,
+118                                     axi.RRESP
+119                                 );
+120                     
+121        <font color = "red">0/1     ==>              errors++;</font>
+122                     
+123                             end
+                        MISSING_ELSE
+124                     
+125                     
+126        2/2                  @(posedge ACLK);
+127                     
+128        1/1                  axi.RREADY &lt;= 1'b0;
+129                     
+130                         endtask
+131                     
+132                     
+133                         //==================================================================
+134                         // INCLUDE COVERAGE TEST TASKS
+135                         //
+136                         // The following file contains:
+137                         //     test_aw_first()
+138                         //     test_w_first()
+139                         //     test_write_backpressure()
+140                         //     test_read_backpressure()
+141                         //     test_read_idle()
+142                         //     test_write_idle()
+143                         //     test_all_wstrb()
+144                         //     test_address_coverage()
+145                         //     test_signal_toggles()
+146                         //     run_coverage_tests()
+147                         //
+148                         // It is included here so those tasks can access:
+149                         //     ACLK
+150                         //     ARESETN
+151                         //     axi
+152                         //     rdata
+153                         //     errors
+154                         //     axi_write()
+155                         //     axi_read()
+156                         //==================================================================
+157                     
+158                         `include &quot;axi_lite_coverage_tasks.svh&quot;
+159                     
+160                     
+161                         //==================================================================
+162                         // TESTBENCH INITIALIZATION
+163                         //==================================================================
+164                     
+165                         initial begin
+166                     
+167                             //==============================================================
+168                             // Initialize interface
+169                             //==============================================================
+170                     
+171        1/1                  axi.AWADDR  = '0;
+172        1/1                  axi.AWVALID = 1'b0;
+173                     
+174        1/1                  axi.WDATA   = '0;
+175        1/1                  axi.WSTRB   = '0;
+176        1/1                  axi.WVALID  = 1'b0;
+177                     
+178        1/1                  axi.BREADY  = 1'b0;
+179                     
+180        1/1                  axi.ARADDR  = '0;
+181        1/1                  axi.ARVALID = 1'b0;
+182                     
+183        1/1                  axi.RREADY  = 1'b0;
+184                     
+185                     
+186                             //==============================================================
+187                             // Wait for reset
+188                             //==============================================================
+189                     
+190        2/2                  wait (ARESETN == 1'b0);
+191                     
+192        1/1                  repeat (3)
+193        2/2                      @(posedge ACLK);
+                        REPEAT_FALSE
+194                     
+195        2/2                  wait (ARESETN == 1'b1);
+196                     
+197        2/2                  @(posedge ACLK);
+198                     
+199                     
+200                             //==============================================================
+201                             // RUN COVERAGE TEST SUITE
+202                             //==============================================================
+203                     
+204        1/1                  run_coverage_tests();
+205                     
+206                     
+207                             //==============================================================
+208                             // Finish simulation
+209                             //==============================================================
+210                     
+211        2/2                  #20;
+212                     
+213        1/1                  $finish;
+</pre>
+<pre class="code"><br clear=all>
+  FILE: /mnt/mydata/my_axi_lite_wrapper/axi_lite_coverage_tasks.svh
+32         1/1              $display(&quot;\n============================================================&quot;);
+33         1/1              $display(&quot;TEST 5: AWVALID before WVALID&quot;);
+34         1/1              $display(&quot;============================================================&quot;);
+35                      
+36         2/2              @(posedge ACLK);
+37                      
+38         1/1              axi.AWADDR  &lt;= 7'd3 &lt;&lt; 2;
+39         1/1              axi.AWVALID &lt;= 1'b1;
+40                      
+41         1/1              axi.WDATA   &lt;= 32'hAAAA_BBBB;
+42         1/1              axi.WSTRB   &lt;= 4'hF;
+43         1/1              axi.WVALID  &lt;= 1'b0;
+44                      
+45         1/1              axi.BREADY  &lt;= 1'b1;
+46                      
+47                      
+48                          // Keep AWVALID asserted while WVALID is low
+49         1/1              repeat (2)
+50         2/2                  @(posedge ACLK);
+                        REPEAT_FALSE
+51                      
+52                      
+53                          // Now assert WVALID
+54         1/1              axi.WVALID &lt;= 1'b1;
+55                      
+56                      
+57                          // Wait for write handshake
+58         1/1              while (!(axi.AWREADY &amp;&amp; axi.WREADY))
+59         2/2                  @(posedge ACLK);
+                   <font color = "red">==>  WHILE_FALSE</font>
+60                      
+61                      
+62         2/2              @(posedge ACLK);
+63                      
+64         1/1              axi.AWVALID &lt;= 1'b0;
+65         1/1              axi.WVALID  &lt;= 1'b0;
+66                      
+67                      
+68                          // Wait for response
+69         1/1              while (!axi.BVALID)
+70         <font color = "red">0/2     ==>          @(posedge ACLK);</font>
+                   <font color = "red">==>  WHILE_FALSE</font>
+71                      
+72                      
+73         1/1              if (axi.BRESP !== 2'b00) begin
+74                      
+75         <font color = "red">0/1     ==>          $display(</font>
+76                                  &quot;ERROR: AW-first write BRESP = %b&quot;,
+77                                  axi.BRESP
+78                              );
+79                      
+80         <font color = "red">0/1     ==>          errors++;</font>
+81                      
+82                          end
+83                          else begin
+84                      
+85         1/1                  $display(&quot;PASS: AW-first write&quot;);
+86                      
+87                          end
+88                      
+89                      
+90         2/2              @(posedge ACLK);
+91                      
+92         1/1              axi.BREADY &lt;= 1'b0;
+93                      
+94                      endtask
+95                      
+96                      
+97                      
+98                      //======================================================================
+99                      // TEST 6
+100                     // WVALID asserted before AWVALID
+101                     //
+102                     // Purpose:
+103                     // Exercise:
+104                     //     WVALID  = 1
+105                     //     AWVALID = 0
+106                     //
+107                     // before the address channel becomes valid.
+108                     //======================================================================
+109                     
+110                     task automatic test_w_first;
+111                     
+112        1/1              $display(&quot;\n============================================================&quot;);
+113        1/1              $display(&quot;TEST 6: WVALID before AWVALID&quot;);
+114        1/1              $display(&quot;============================================================&quot;);
+115                     
+116        2/2              @(posedge ACLK);
+117                     
+118        1/1              axi.AWADDR  &lt;= 7'd4 &lt;&lt; 2;
+119        1/1              axi.AWVALID &lt;= 1'b0;
+120                     
+121        1/1              axi.WDATA   &lt;= 32'hCCCC_DDDD;
+122        1/1              axi.WSTRB   &lt;= 4'hF;
+123        1/1              axi.WVALID  &lt;= 1'b1;
+124                     
+125        1/1              axi.BREADY  &lt;= 1'b1;
+126                     
+127                     
+128                         // Keep WVALID asserted while AWVALID is low
+129        1/1              repeat (2)
+130        2/2                  @(posedge ACLK);
+                        REPEAT_FALSE
+131                     
+132                     
+133                         // Now assert AWVALID
+134        1/1              axi.AWVALID &lt;= 1'b1;
+135                     
+136                     
+137                         // Wait for write handshake
+138        1/1              while (!(axi.AWREADY &amp;&amp; axi.WREADY))
+139        2/2                  @(posedge ACLK);
+                   <font color = "red">==>  WHILE_FALSE</font>
+140                     
+141                     
+142        2/2              @(posedge ACLK);
+143                     
+144        1/1              axi.AWVALID &lt;= 1'b0;
+145        1/1              axi.WVALID  &lt;= 1'b0;
+146                     
+147                     
+148                         // Wait for response
+149        1/1              while (!axi.BVALID)
+150        <font color = "red">0/2     ==>          @(posedge ACLK);</font>
+                   <font color = "red">==>  WHILE_FALSE</font>
+151                     
+152                     
+153        1/1              if (axi.BRESP !== 2'b00) begin
+154                     
+155        <font color = "red">0/1     ==>          $display(</font>
+156                                 &quot;ERROR: W-first write BRESP = %b&quot;,
+157                                 axi.BRESP
+158                             );
+159                     
+160        <font color = "red">0/1     ==>          errors++;</font>
+161                     
+162                         end
+163                         else begin
+164                     
+165        1/1                  $display(&quot;PASS: W-first write&quot;);
+166                     
+167                         end
+168                     
+169                     
+170        2/2              @(posedge ACLK);
+171                     
+172        1/1              axi.BREADY &lt;= 1'b0;
+173                     
+174                     endtask
+175                     
+176                     
+177                     
+178                     //======================================================================
+179                     // TEST 7
+180                     // Write response backpressure
+181                     //
+182                     // Purpose:
+183                     // Exercise:
+184                     //
+185                     //     BVALID = 1
+186                     //     BREADY = 0
+187                     //
+188                     // followed by:
+189                     //
+190                     //     BVALID = 1
+191                     //     BREADY = 1
+192                     //
+193                     // This specifically targets the BREADY side of the response
+194                     // handshake.
+195                     //======================================================================
+196                     
+197                     task automatic test_write_backpressure;
+198                     
+199        1/1              $display(&quot;\n============================================================&quot;);
+200        1/1              $display(&quot;TEST 7: Write response backpressure&quot;);
+201        1/1              $display(&quot;============================================================&quot;);
+202                     
+203                     
+204        2/2              @(posedge ACLK);
+205                     
+206        1/1              axi.AWADDR  &lt;= 7'd6 &lt;&lt; 2;
+207        1/1              axi.AWVALID &lt;= 1'b1;
+208                     
+209        1/1              axi.WDATA   &lt;= 32'h1111_2222;
+210        1/1              axi.WSTRB   &lt;= 4'hF;
+211        1/1              axi.WVALID  &lt;= 1'b1;
+212                     
+213                     
+214                         // IMPORTANT:
+215                         // Do NOT accept BVALID immediately.
+216        1/1              axi.BREADY &lt;= 1'b0;
+217                     
+218                     
+219                         // Wait for write handshake
+220        1/1              while (!(axi.AWREADY &amp;&amp; axi.WREADY))
+221        2/2                  @(posedge ACLK);
+                   <font color = "red">==>  WHILE_FALSE</font>
+222                     
+223                     
+224        2/2              @(posedge ACLK);
+225                     
+226        1/1              axi.AWVALID &lt;= 1'b0;
+227        1/1              axi.WVALID  &lt;= 1'b0;
+228                     
+229                     
+230                         // Wait until DUT produces BVALID
+231        1/1              while (!axi.BVALID)
+232        <font color = "red">0/2     ==>          @(posedge ACLK);</font>
+                   <font color = "red">==>  WHILE_FALSE</font>
+233                     
+234                     
+235        1/1              $display(&quot;BVALID asserted while BREADY = 0&quot;);
+236                     
+237                     
+238                         // Hold response for several cycles
+239        1/1              repeat (3)
+240        2/2                  @(posedge ACLK);
+                        REPEAT_FALSE
+241                     
+242                     
+243                         // Now accept response
+244        1/1              axi.BREADY &lt;= 1'b1;
+245                     
+246                     
+247        2/2              @(posedge ACLK);
+248                     
+249                     
+250        1/1              if (axi.BVALID !== 1'b0) begin
+251                     
+252                             // Give DUT another clock to complete response
+253        2/2                  @(posedge ACLK);
+254                     
+255                         end
+                   <font color = "red">==>  MISSING_ELSE</font>
+256                     
+257                     
+258        1/1              axi.BREADY &lt;= 1'b0;
+259                     
+260        1/1              $display(&quot;PASS: Write response backpressure&quot;);
+261                     
+262                     endtask
+263                     
+264                     
+265                     
+266                     //======================================================================
+267                     // TEST 8
+268                     // Read response backpressure
+269                     //
+270                     // Purpose:
+271                     // Exercise:
+272                     //
+273                     //     RVALID = 1
+274                     //     RREADY = 0
+275                     //
+276                     // followed by:
+277                     //
+278                     //     RREADY = 1
+279                     //
+280                     //======================================================================
+281                     
+282                     task automatic test_read_backpressure;
+283                     
+284                         logic [DATA_WIDTH-1:0] temp_data;
+285                     
+286        1/1              $display(&quot;\n============================================================&quot;);
+287        1/1              $display(&quot;TEST 8: Read response backpressure&quot;);
+288        1/1              $display(&quot;============================================================&quot;);
+289                     
+290                     
+291        2/2              @(posedge ACLK);
+292                     
+293        1/1              axi.ARADDR  &lt;= 7'd6 &lt;&lt; 2;
+294        1/1              axi.ARVALID &lt;= 1'b1;
+295                     
+296                         // Do not accept read data immediately
+297        1/1              axi.RREADY &lt;= 1'b0;
+298                     
+299                     
+300                         // Wait for address handshake
+301        1/1              while (!axi.ARREADY)
+302        2/2                  @(posedge ACLK);
+                   <font color = "red">==>  WHILE_FALSE</font>
+303                     
+304                     
+305        2/2              @(posedge ACLK);
+306                     
+307        1/1              axi.ARVALID &lt;= 1'b0;
+308                     
+309                     
+310                         // Wait for RVALID
+311        1/1              while (!axi.RVALID)
+312        <font color = "red">0/2     ==>          @(posedge ACLK);</font>
+                   <font color = "red">==>  WHILE_FALSE</font>
+313                     
+314                     
+315        1/1              $display(&quot;RVALID asserted while RREADY = 0&quot;);
+316                     
+317                     
+318                         // Hold RREADY low
+319        1/1              repeat (3)
+320        2/2                  @(posedge ACLK);
+                        REPEAT_FALSE
+321                     
+322                     
+323                         // Now accept the read response
+324        1/1              axi.RREADY &lt;= 1'b1;
+325                     
+326                     
+327        2/2              @(posedge ACLK);
+328                     
+329        1/1              temp_data = axi.RDATA;
+330                     
+331                     
+332        1/1              if (axi.RRESP !== 2'b00) begin
+333                     
+334        <font color = "red">0/1     ==>          $display(</font>
+335                                 &quot;ERROR: Read backpressure RRESP = %b&quot;,
+336                                 axi.RRESP
+337                             );
+338                     
+339        <font color = "red">0/1     ==>          errors++;</font>
+340                     
+341                         end
+342                         else begin
+343                     
+344        1/1                  $display(
+345                                 &quot;PASS: Read response backpressure, RDATA = %h&quot;,
+346                                 temp_data
+347                             );
+348                     
+349                         end
+350                     
+351                     
+352        2/2              @(posedge ACLK);
+353                     
+354        1/1              axi.RREADY &lt;= 1'b0;
+355                     
+356                     endtask
+357                     
+358                     
+359                     
+360                     //======================================================================
+361                     // TEST 9
+362                     // Read channel idle
+363                     //
+364                     // Purpose:
+365                     // Exercise ARVALID = 0 for several cycles.
+366                     //======================================================================
+367                     
+368                     task automatic test_read_idle;
+369                     
+370        1/1              $display(&quot;\n============================================================&quot;);
+371        1/1              $display(&quot;TEST 9: Read channel idle&quot;);
+372        1/1              $display(&quot;============================================================&quot;);
+373                     
+374                     
+375        1/1              axi.ARVALID = 1'b0;
+376        1/1              axi.RREADY  = 1'b0;
+377                     
+378        1/1              repeat (5)
+379        2/2                  @(posedge ACLK);
+                        REPEAT_FALSE
+380                     
+381                     
+382        1/1              $display(&quot;PASS: Read channel remained idle&quot;);
+383                     
+384                     endtask
+385                     
+386                     
+387                     
+388                     //======================================================================
+389                     // TEST 10
+390                     // Write channel idle
+391                     //
+392                     // Purpose:
+393                     // Exercise:
+394                     //     AWVALID = 0
+395                     //     WVALID  = 0
+396                     //     BREADY  = 0
+397                     //
+398                     // for several cycles.
+399                     //======================================================================
+400                     
+401                     task automatic test_write_idle;
+402                     
+403        1/1              $display(&quot;\n============================================================&quot;);
+404        1/1              $display(&quot;TEST 10: Write channel idle&quot;);
+405        1/1              $display(&quot;============================================================&quot;);
+406                     
+407                     
+408        1/1              axi.AWVALID = 1'b0;
+409        1/1              axi.WVALID  = 1'b0;
+410        1/1              axi.BREADY  = 1'b0;
+411                     
+412        1/1              repeat (5)
+413        2/2                  @(posedge ACLK);
+                        REPEAT_FALSE
+414                     
+415                     
+416        1/1              $display(&quot;PASS: Write channel remained idle&quot;);
+417                     
+418                     endtask
+419                     
+420                     
+421                     
+422                     //======================================================================
+423                     // TEST 11
+424                     // All WSTRB combinations
+425                     //
+426                     // Purpose:
+427                     // Exercise every possible combination of:
+428                     //
+429                     //     WSTRB[3:0]
+430                     //
+431                     // This ensures each individual WSTRB condition experiences both:
+432                     //
+433                     //     0
+434                     //     1
+435                     //
+436                     //======================================================================
+437                     
+438                     task automatic test_all_wstrb;
+439                     
+440                         logic [DATA_WIDTH-1:0] original;
+441                         logic [DATA_WIDTH-1:0] new_data;
+442                         logic [DATA_WIDTH-1:0] expected;
+443                     
+444                         logic [3:0] strb;
+445                     
+446                     
+447        1/1              $display(&quot;\n============================================================&quot;);
+448        1/1              $display(&quot;TEST 11: All WSTRB combinations&quot;);
+449        1/1              $display(&quot;============================================================&quot;);
+450                     
+451                     
+452                         // Initial value
+453        1/1              original = 32'h1122_3344;
+454                     
+455                     
+456                         // Write initial value
+457        1/1              axi_write(
+458                             7'd10 &lt;&lt; 2,
+459                             original
+460                         );
+461                     
+462                     
+463                         // Try all 16 WSTRB combinations
+464        1/1              for (int i = 0; i &lt; 16; i++) begin
+465                     
+466        1/1                  strb     = i[3:0];
+467        1/1                  new_data = 32'hA5A5_5A5A;
+468                     
+469                     
+470                             //----------------------------------------------------------
+471                             // Write using current WSTRB
+472                             //----------------------------------------------------------
+473                     
+474        1/1                  axi_write(
+475                                 7'd10 &lt;&lt; 2,
+476                                 new_data,
+477                                 strb
+478                             );
+479                     
+480                     
+481                             //----------------------------------------------------------
+482                             // Read result
+483                             //----------------------------------------------------------
+484                     
+485        1/1                  axi_read(
+486                                 7'd10 &lt;&lt; 2,
+487                                 rdata
+488                             );
+489                     
+490                     
+491                             //----------------------------------------------------------
+492                             // Calculate expected result
+493                             //----------------------------------------------------------
+494                     
+495        1/1                  expected = original;
+496                     
+497                     
+498        1/1                  if (strb[0])
+499        1/1                      expected[7:0] = new_data[7:0];
+                        MISSING_ELSE
+500                     
+501        1/1                  if (strb[1])
+502        1/1                      expected[15:8] = new_data[15:8];
+                        MISSING_ELSE
+503                     
+504        1/1                  if (strb[2])
+505        1/1                      expected[23:16] = new_data[23:16];
+                        MISSING_ELSE
+506                     
+507        1/1                  if (strb[3])
+508        1/1                      expected[31:24] = new_data[31:24];
+                        MISSING_ELSE
+509                     
+510                     
+511                             //----------------------------------------------------------
+512                             // Check
+513                             //----------------------------------------------------------
+514                     
+515        1/1                  if (rdata !== expected) begin
+516                     
+517        <font color = "red">0/1     ==>              $display(</font>
+518                                     &quot;ERROR: WSTRB=%b expected=%h got=%h&quot;,
+519                                     strb,
+520                                     expected,
+521                                     rdata
+522                                 );
+523                     
+524        <font color = "red">0/1     ==>              errors++;</font>
+525                     
+526                             end
+527                             else begin
+528                     
+529        1/1                      $display(
+530                                     &quot;PASS: WSTRB=%b result=%h&quot;,
+531                                     strb,
+532                                     rdata
+533                                 );
+534                     
+535                             end
+536                     
+537                     
+538        1/1                  original = expected;
+539                     
+540                         end
+541                     
+542                     endtask
+543                     
+544                     
+545                     
+546                     //==================================================================
+547                     // DATA PATTERN VARIETY
+548                     // Drive all registers with FFFF_FFFF -&gt; 0000_0000
+549                     // Ensures all register/data bits, including bit 22, toggle
+550                     // 0 -&gt; 1 -&gt; 0.
+551                     //==================================================================
+552                     
+553                     task automatic test_data_pattern_variety;
+554                     
+555                         logic [DATA_WIDTH-1:0] temp_data;
+556                     
+557                         $display(&quot;\n============================================================&quot;);
+558                         $display(&quot;TEST: Alternating data patterns&quot;);
+559                         $display(&quot;============================================================&quot;);
+560                     
+561                     
+562                         //--------------------------------------------------------------
+563                         // ALL ZEROS
+564                         //--------------------------------------------------------------
+565                     
+566                         for (int i = 0; i &lt; 32; i++) begin
+567                     
+568                             axi_write(
+569                                 i &lt;&lt; 2,
+570                                 32'h0000_0000
+571                             );
+572                     
+573                             axi_read(
+574                                 i &lt;&lt; 2,
+575                                 temp_data
+576                             );
+577                     
+578                             if (temp_data !== 32'h0000_0000) begin
+579                     
+580                                 $display(
+581                                     &quot;ERROR: reg[%0d] expected 00000000, got %h&quot;,
+582                                     i,
+583                                     temp_data
+584                                 );
+585                     
+586                                 errors++;
+587                     
+588                             end
+589                     
+590                         end
+591                     
+592                     
+593                         //--------------------------------------------------------------
+594                         // ALL ONES
+595                         //--------------------------------------------------------------
+596                     
+597                         for (int i = 0; i &lt; 32; i++) begin
+598                     
+599                             axi_write(
+600                                 i &lt;&lt; 2,
+601                                 32'hFFFF_FFFF
+602                             );
+603                     
+604                             axi_read(
+605                                 i &lt;&lt; 2,
+606                                 temp_data
+607                             );
+608                     
+609                             if (temp_data !== 32'hFFFF_FFFF) begin
+610                     
+611                                 $display(
+612                                     &quot;ERROR: reg[%0d] expected FFFFFFFF, got %h&quot;,
+613                                     i,
+614                                     temp_data
+615                                 );
+616                     
+617                                 errors++;
+618                     
+619                             end
+620                     
+621                         end
+622                     
+623                     
+624                         //--------------------------------------------------------------
+625                         // ALL ZEROS AGAIN
+626                         //
+627                         // Explicitly creates:
+628                         //
+629                         //     0 -&gt; 1 -&gt; 0
+630                         //--------------------------------------------------------------
+631                     
+632                         for (int i = 0; i &lt; 32; i++) begin
+633                     
+634                             axi_write(
+635                                 i &lt;&lt; 2,
+636                                 32'h0000_0000
+637                             );
+638                     
+639                             axi_read(
+640                                 i &lt;&lt; 2,
+641                                 temp_data
+642                             );
+643                     
+644                             if (temp_data !== 32'h0000_0000) begin
+645                     
+646                                 $display(
+647                                     &quot;ERROR: reg[%0d] expected 00000000, got %h&quot;,
+648                                     i,
+649                                     temp_data
+650                                 );
+651                     
+652                                 errors++;
+653                     
+654                             end
+655                     
+656                         end
+657                     
+658                     
+659                         $display(&quot;PASS: Alternating data pattern coverage completed&quot;);
+660                     
+661                     endtask
+662                     
+663                     
+664                     
+665                     //======================================================================
+666                     // TEST 12
+667                     // Address coverage
+668                     //
+669                     // Purpose:
+670                     // Exercise different register addresses so that address bits toggle
+671                     // extensively.
+672                     //
+673                     //======================================================================
+674                     
+675                     //==================================================================
+676                     // TEST: Expanded register address coverage
+677                     //
+678                     // Purpose:
+679                     // Exercise register indices &gt;= 16 so address bit 4 becomes 1.
+680                     //
+681                     // This targets:
+682                     //     rs1_addr[4]
+683                     //     rs2_addr[4]
+684                     //     rd_addr[4]
+685                     //
+686                     // Also exercises rs1_addr[1] using multiple register indices.
+687                     //==================================================================
+688                     
+689                     task automatic test_address_coverage;
+690                     
+691                         logic [DATA_WIDTH-1:0] temp_data;
+692                     
+693        1/1              $display(&quot;\n============================================================&quot;);
+694        1/1              $display(&quot;TEST: Expanded register address coverage&quot;);
+695        1/1              $display(&quot;============================================================&quot;);
+696                     
+697                     
+698                         //--------------------------------------------------------------
+699                         // Lower register indices
+700                         // Address bit 4 = 0
+701                         //--------------------------------------------------------------
+702                     
+703        1/1              axi_write(
+704                             7'd0 &lt;&lt; 2,
+705                             32'h0000_0000
+706                         );
+707                     
+708        1/1              axi_read(
+709                             7'd0 &lt;&lt; 2,
+710                             temp_data
+711                         );
+712                     
+713                     
+714        1/1              axi_write(
+715                             7'd1 &lt;&lt; 2,
+716                             32'h1111_1111
+717                         );
+718                     
+719        1/1              axi_read(
+720                             7'd1 &lt;&lt; 2,
+721                             temp_data
+722                         );
+723                     
+724                     
+725        1/1              axi_write(
+726                             7'd3 &lt;&lt; 2,
+727                             32'h3333_3333
+728                         );
+729                     
+730        1/1              axi_read(
+731                             7'd3 &lt;&lt; 2,
+732                             temp_data
+733                         );
+734                     
+735                     
+736                         //--------------------------------------------------------------
+737                         // Higher register indices
+738                         // Address bit 4 = 1
+739                         //--------------------------------------------------------------
+740                     
+741        1/1              axi_write(
+742                             7'd16 &lt;&lt; 2,
+743                             32'hAAAA_AAAA
+744                         );
+745                     
+746        1/1              axi_read(
+747                             7'd16 &lt;&lt; 2,
+748                             temp_data
+749                         );
+750                     
+751                     
+752        1/1              axi_write(
+753                             7'd17 &lt;&lt; 2,
+754                             32'hBBBB_BBBB
+755                         );
+756                     
+757        1/1              axi_read(
+758                             7'd17 &lt;&lt; 2,
+759                             temp_data
+760                         );
+761                     
+762                     
+763        1/1              axi_write(
+764                             7'd18 &lt;&lt; 2,
+765                             32'hCCCC_CCCC
+766                         );
+767                     
+768        1/1              axi_read(
+769                             7'd18 &lt;&lt; 2,
+770                             temp_data
+771                         );
+772                     
+773                     
+774        1/1              axi_write(
+775                             7'd19 &lt;&lt; 2,
+776                             32'hDDDD_DDDD
+777                         );
+778                     
+779        1/1              axi_read(
+780                             7'd19 &lt;&lt; 2,
+781                             temp_data
+782                         );
+783                     
+784                     
+785        1/1              axi_write(
+786                             7'd23 &lt;&lt; 2,
+787                             32'hEEEE_EEEE
+788                         );
+789                     
+790        1/1              axi_read(
+791                             7'd23 &lt;&lt; 2,
+792                             temp_data
+793                         );
+794                     
+795                     
+796        1/1              axi_write(
+797                             7'd24 &lt;&lt; 2,
+798                             32'h1234_5678
+799                         );
+800                     
+801        1/1              axi_read(
+802                             7'd24 &lt;&lt; 2,
+803                             temp_data
+804                         );
+805                     
+806                     
+807        1/1              axi_write(
+808                             7'd31 &lt;&lt; 2,
+809                             32'hFFFF_FFFF
+810                         );
+811                     
+812        1/1              axi_read(
+813                             7'd31 &lt;&lt; 2,
+814                             temp_data
+815                         );
+816                     
+817                     
+818        1/1              $display(&quot;PASS: Expanded register address coverage completed&quot;);
+819                     
+820                     endtask
+821                     
+822                     
+823                     
+824                     //======================================================================
+825                     // TEST 13
+826                     // AXI signal toggling
+827                     //
+828                     // Purpose:
+829                     // Explicitly drive the master-side signals through 0 -&gt; 1 -&gt; 0.
+830                     // Useful for toggle coverage.
+831                     //======================================================================
+832                     
+833                     task automatic test_signal_toggles;
+834                     
+835        1/1              $display(&quot;\n============================================================&quot;);
+836        1/1              $display(&quot;TEST 13: AXI signal toggle stimulus&quot;);
+837        1/1              $display(&quot;============================================================&quot;);
+838                     
+839                     
+840                         //--------------------------------------------------------------
+841                         // AW channel
+842                         //--------------------------------------------------------------
+843                     
+844        1/1              axi.AWADDR  = '0;
+845        1/1              axi.AWVALID = 1'b0;
+846                     
+847        2/2              @(posedge ACLK);
+848                     
+849        1/1              axi.AWADDR  = '1;
+850        1/1              axi.AWVALID = 1'b1;
+851                     
+852        2/2              @(posedge ACLK);
+853                     
+854        1/1              axi.AWADDR  = '0;
+855        1/1              axi.AWVALID = 1'b0;
+856                     
+857                     
+858                         //--------------------------------------------------------------
+859                         // W channel
+860                         //--------------------------------------------------------------
+861                     
+862        1/1              axi.WDATA   = '0;
+863        1/1              axi.WSTRB   = '0;
+864        1/1              axi.WVALID  = 1'b0;
+865                     
+866        2/2              @(posedge ACLK);
+867                     
+868        1/1              axi.WDATA   = '1;
+869        1/1              axi.WSTRB   = '1;
+870        1/1              axi.WVALID  = 1'b1;
+871                     
+872        2/2              @(posedge ACLK);
+873                     
+874        1/1              axi.WDATA   = '0;
+875        1/1              axi.WSTRB   = '0;
+876        1/1              axi.WVALID  = 1'b0;
+877                     
+878                     
+879                         //--------------------------------------------------------------
+880                         // BREADY
+881                         //--------------------------------------------------------------
+882                     
+883        1/1              axi.BREADY = 1'b0;
+884                     
+885        2/2              @(posedge ACLK);
+886                     
+887        1/1              axi.BREADY = 1'b1;
+888                     
+889        2/2              @(posedge ACLK);
+890                     
+891        1/1              axi.BREADY = 1'b0;
+892                     
+893                     
+894                         //--------------------------------------------------------------
+895                         // AR channel
+896                         //--------------------------------------------------------------
+897                     
+898        1/1              axi.ARADDR  = '0;
+899        1/1              axi.ARVALID = 1'b0;
+900                     
+901        2/2              @(posedge ACLK);
+902                     
+903        1/1              axi.ARADDR  = '1;
+904        1/1              axi.ARVALID = 1'b1;
+905                     
+906        2/2              @(posedge ACLK);
+907                     
+908        1/1              axi.ARADDR  = '0;
+909        1/1              axi.ARVALID = 1'b0;
+910                     
+911                     
+912                         //--------------------------------------------------------------
+913                         // RREADY
+914                         //--------------------------------------------------------------
+915                     
+916        1/1              axi.RREADY = 1'b0;
+917                     
+918        2/2              @(posedge ACLK);
+919                     
+920        1/1              axi.RREADY = 1'b1;
+921                     
+922        2/2              @(posedge ACLK);
+923                     
+924        1/1              axi.RREADY = 1'b0;
+925                     
+926                     
+927        1/1              $display(&quot;PASS: AXI signal toggle stimulus completed&quot;);
+928                     
+929                     endtask
+930                     
+931                     //==================================================================
+932                     // TEST: Additional reset pulse
+933                     //
+934                     // Purpose:
+935                     // Exercise reset transition:
+936                     //     ARESETN: 1 -&gt; 0 -&gt; 1
+937                     //
+938                     // This provides additional reset coverage at the end of simulation.
+939                     //==================================================================
+940                     
+941                     task automatic test_reset_pulse;
+942                     
+943        1/1              $display(&quot;\n============================================================&quot;);
+944        1/1              $display(&quot;TEST: Additional reset pulse&quot;);
+945        1/1              $display(&quot;============================================================&quot;);
+946                     
+947                         // Ensure we are currently out of reset
+948        2/2              wait (ARESETN == 1'b1);
+949                     
+950        1/1              repeat (2)
+951        2/2                  @(posedge ACLK);
+                        REPEAT_FALSE
+952                     
+953                         // Assert reset
+954        1/1              $display(&quot;Asserting additional reset pulse&quot;);
+955                     
+956        1/1              force ARESETN = 1'b0;
+957                     
+958        1/1              repeat (3)
+959        2/2                  @(posedge ACLK);
+                        REPEAT_FALSE
+960                     
+961                         // Release reset
+962        1/1              $display(&quot;Releasing additional reset pulse&quot;);
+963                     
+964        1/1              force ARESETN = 1'b1;
+965                     
+966        1/1              repeat (3)
+967        2/2                  @(posedge ACLK);
+                        REPEAT_FALSE
+968                     
+969        1/1              release ARESETN;
+970                     
+971        1/1              $display(&quot;PASS: Additional reset pulse completed&quot;);
+972                     
+973                     endtask
+974                     
+975                     
+976                     //======================================================================
+977                     // MASTER TASK
+978                     //
+979                     // Call ONLY this task from your TB initial block:
+980                     //
+981                     //     run_coverage_tests();
+982                     //
+983                     //======================================================================
+984                     
+985                     task automatic run_coverage_tests;
+986                     
+987        1/1              $display(&quot;\n&quot;);
+988        1/1              $display(&quot;############################################################&quot;);
+989        1/1              $display(&quot;#                                                          #&quot;);
+990        1/1              $display(&quot;#              AXI-LITE COVERAGE TESTS                    #&quot;);
+991        1/1              $display(&quot;#                                                          #&quot;);
+992        1/1              $display(&quot;############################################################&quot;);
+993                     
+994                     
+995                         //--------------------------------------------------------------
+996                         // Wait until reset is released
+997                         //--------------------------------------------------------------
+998                     
+999        2/2              wait (ARESETN == 1'b1);
+1000                    
+1001       2/2              @(posedge ACLK);
+1002                    
+1003                    
+1004                        //--------------------------------------------------------------
+1005                        // Basic write/read
+1006                        //--------------------------------------------------------------
+1007                    
+1008       1/1              $display(&quot;\nTEST 1: Basic write/read&quot;);
+1009                    
+1010       1/1              axi_write(
+1011                            7'd5 &lt;&lt; 2,
+1012                            32'hDEAD_BEEF
+1013                        );
+1014                    
+1015       1/1              axi_read(
+1016                            7'd5 &lt;&lt; 2,
+1017                            rdata
+1018                        );
+1019                    
+1020                    
+1021                        //--------------------------------------------------------------
+1022                        // Basic second register
+1023                        //--------------------------------------------------------------
+1024                    
+1025       1/1              $display(&quot;\nTEST 2: Second register&quot;);
+1026                    
+1027       1/1              axi_write(
+1028                            7'd10 &lt;&lt; 2,
+1029                            32'h1234_5678
+1030                        );
+1031                    
+1032       1/1              axi_read(
+1033                            7'd10 &lt;&lt; 2,
+1034                            rdata
+1035                        );
+1036                    
+1037                    
+1038                        //--------------------------------------------------------------
+1039                        // Basic WSTRB
+1040                        //--------------------------------------------------------------
+1041                    
+1042       1/1              $display(&quot;\nTEST 3: Basic WSTRB&quot;);
+1043                    
+1044       1/1              axi_write(
+1045                            7'd10 &lt;&lt; 2,
+1046                            32'h0000_00AA,
+1047                            4'b0001
+1048                        );
+1049                    
+1050       1/1              axi_read(
+1051                            7'd10 &lt;&lt; 2,
+1052                            rdata
+1053                        );
+1054                    
+1055                    
+1056                        //--------------------------------------------------------------
+1057                        // AWVALID before WVALID
+1058                        //--------------------------------------------------------------
+1059                    
+1060       1/1              test_aw_first();
+1061                    
+1062                    
+1063                        //--------------------------------------------------------------
+1064                        // WVALID before AWVALID
+1065                        //--------------------------------------------------------------
+1066                    
+1067       1/1              test_w_first();
+1068                    
+1069                    
+1070                        //--------------------------------------------------------------
+1071                        // BVALID/BREADY backpressure
+1072                        //--------------------------------------------------------------
+1073                    
+1074       1/1              test_write_backpressure();
+1075                    
+1076                    
+1077                        //--------------------------------------------------------------
+1078                        // RVALID/RREADY backpressure
+1079                        //--------------------------------------------------------------
+1080                    
+1081       1/1              test_read_backpressure();
+1082                    
+1083                    
+1084                        //--------------------------------------------------------------
+1085                        // Read channel idle
+1086                        //--------------------------------------------------------------
+1087                    
+1088       1/1              test_read_idle();
+1089                    
+1090                    
+1091                        //--------------------------------------------------------------
+1092                        // Write channel idle
+1093                        //--------------------------------------------------------------
+1094                    
+1095       1/1              test_write_idle();
+1096                    
+1097                    
+1098                        //--------------------------------------------------------------
+1099                        // All WSTRB combinations
+1100                        //--------------------------------------------------------------
+1101                    
+1102       1/1              test_all_wstrb();
+1103                    
+1104                    
+1105                        //--------------------------------------------------------------
+1106                        // Address coverage
+1107                        //--------------------------------------------------------------
+1108                    
+1109       1/1              test_address_coverage();
+1110                    
+1111                    
+1112                        //--------------------------------------------------------------
+1113                        // Toggle stimulus
+1114                        //--------------------------------------------------------------
+1115                    
+1116       1/1              test_signal_toggles();
+1117       1/1              test_reset_pulse();
+1118                    
+1119                        
+1120                        //--------------------------------------------------------------
+1121                        // Final result
+1122                        //--------------------------------------------------------------
+1123                    
+1124       1/1              $display(&quot;\n&quot;);
+1125       1/1              $display(&quot;############################################################&quot;);
+1126                    
+1127       1/1              if (errors == 0) begin
+1128                    
+1129       1/1                  $display(&quot;#              ALL TESTS PASSED                         #&quot;);
+1130                    
+1131                        end
+1132                        else begin
+1133                    
+1134       <font color = "red">0/1     ==>          $display(</font>
+1135                                &quot;#              %0d TEST(S) FAILED                       #&quot;,
+1136                                errors
+1137                            );
+1138                    
+1139                        end
+1140                    
+1141       1/1              $display(&quot;############################################################&quot;);
+1142       1/1              $display(&quot;\n&quot;);
+</pre>
+<hr>
+<a name="Toggle"></a>
+Toggle Coverage for Module : <a href="mod3.html" >axi_lite_regfile_tb</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s6">
+<td>Totals</td>
+<td class="rt">3</td>
+<td class="rt">2</td>
+<td class="rt">66.67 </td>
+</tr><tr class="s7">
+<td>Total Bits</td>
+<td class="rt">68</td>
+<td class="rt">49</td>
+<td class="rt">72.06 </td>
+</tr><tr class="s6">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">34</td>
+<td class="rt">21</td>
+<td class="rt">61.76 </td>
+</tr><tr class="s8">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">34</td>
+<td class="rt">28</td>
+<td class="rt">82.35 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s10">
+<td>Ports</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>Port Bits</td>
+<td class="rt">4</td>
+<td class="rt">4</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s0">
+<td>Signals</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">0.00  </td>
+</tr><tr class="s7">
+<td>Signal Bits</td>
+<td class="rt">64</td>
+<td class="rt">45</td>
+<td class="rt">70.31 </td>
+</tr><tr class="s5">
+<td nowrap>Signal Bits 0->1</td>
+<td class="rt">32</td>
+<td class="rt">19</td>
+<td class="rt">59.38 </td>
+</tr><tr class="s8">
+<td nowrap>Signal Bits 1->0</td>
+<td class="rt">32</td>
+<td class="rt">26</td>
+<td class="rt">81.25 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Direction</td></tr><tr>
+<td>ACLK</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>ARESETN</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Signal Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td></tr><tr>
+<td>rdata[0]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>rdata[4:1]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rdata[5]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>rdata[8:6]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rdata[9]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>rdata[10]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>rdata[11]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rdata[12]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>rdata[14:13]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rdata[15]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>rdata[18:16]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rdata[19]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>rdata[20]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rdata[22:21]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>rdata[23]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rdata[24]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rdata[25]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>rdata[26]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rdata[28:27]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>rdata[29]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rdata[30]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>rdata[31]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center-inner-north">
+<div id="center-bread-crumb" class="breadCrumb module urg-margin-bottom">
+  <ul name="inst_tag_3">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+  </ul>
+  <ul name="tag_axi_lite_regfile_tb">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>

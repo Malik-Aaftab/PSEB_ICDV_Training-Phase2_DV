@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Module :: axi_lite_regfile</title>
+<link type="text/css" rel="stylesheet" href="css/.urg.css">
+<link type="text/css" rel="stylesheet" href="css/.layout.css">
+<link type="text/css" rel="stylesheet" href="css/.breadcrumb.css">
+<script type="text/javascript" src="js/.jquery.js"></script>
+<script type="text/javascript" src="js/.jquery-ui.js"></script>
+<script type="text/javascript" src="js/.sortable.js"></script>
+<script type="text/javascript" src="js/.layout.js"></script>
+<script type="text/javascript" src="js/.breadcrumb.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  if ($("#north-bread-crumb")) {
+    $("#north-bread-crumb").jBreadCrumb({easing:'swing'})
+  }
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    },
+    west: {
+      size: 500,
+      resizable: true,
+      initClosed: false
+    }
+  });
+  centerLayout = $('div.ui-layout-center').layout({
+    north__paneSelector: ".ui-layout-center-inner-north",
+    center__paneSelector: ".ui-layout-center-inner-center", 
+    north__size: 50,
+    spacing_open: 4,
+    spacing_closed: 4
+  });
+});
+</script>
+</head>
+<body onLoad="initPage();"><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Module Definition</center>
+<div align="center"><a href="dashboard.html" ><b>dashboard</b></a> | <a href="hierarchy.html" ><b>hierarchy</b></a> | <a href="modlist.html" ><b>modlist</b></a> | groups | <a href="tests.html" ><b>tests</b></a> | asserts</div>
+
+</div>
+<div class="ui-layout-west">
+<div name='tag_axi_lite_regfile'>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module : <a href="#"  onclick="showContent('tag_axi_lite_regfile')">axi_lite_regfile</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td></tr><tr>
+<td class="s9 cl rt"> 93.30</td>
+<td class="s10 cl rt"><a href="mod1.html#Line" >100.00</a></td>
+<td class="s8 cl rt"><a href="mod1.html#Cond" > 84.85</a></td>
+<td class="s9 cl rt"><a href="mod1.html#Toggle" > 95.05</a></td>
+</tr></table><br clear=all>
+<span class=repname>Source File(s) : </span>
+<br clear=all>
+<a href="file:///mnt/mydata/my_axi_lite_wrapper/my_axi_lite_regfile.sv" >/mnt/mydata/my_axi_lite_wrapper/my_axi_lite_regfile.sv</a><br clear=all>
+<br clear=all>
+<span class=repname>Module self-instances :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td></tr><tr>
+<td class="wht cl wordwrap"><a href="mod1.html#inst_tag_1"  onclick="showContent('inst_tag_1')">top.dut</a></td>
+<td class="s9 cl rt"> 93.30</td>
+<td class="s10 cl rt"><a href="mod1.html#Line" >100.00</a></td>
+<td class="s8 cl rt"><a href="mod1.html#Cond" > 84.85</a></td>
+<td class="s9 cl rt"><a href="mod1.html#Toggle" > 95.05</a></td>
+</tr></table></div>
+</div>
+<br clear=all>
+<div name='tag_axi_lite_regfile'>
+<hr>
+<a name="inst_tag_1"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy.html#tag_urg_inst_1" >top.dut</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td></tr><tr>
+<td class="s9 cl rt"> 93.30</td>
+<td class="s10 cl rt"><a href="mod1.html#Line" >100.00</a></td>
+<td class="s8 cl rt"><a href="mod1.html#Cond" > 84.85</a></td>
+<td class="s9 cl rt"><a href="mod1.html#Toggle" > 95.05</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td></tr><tr>
+<td class="s9 cl rt"> 93.68</td>
+<td class="s10 cl rt">100.00</td>
+<td class="s8 cl rt"> 84.85</td>
+<td class="s9 cl rt"> 96.20</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s8 cl rt"> 87.50</td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+<td class="s7 cl rt"> 75.00</td>
+<td><a href="mod4.html#inst_tag_4" >top</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td></tr><tr>
+<td class="wht cl wordwrap"><a href="mod0.html#inst_tag_0" id="tag_urg_inst_0">dut_regfile</a></td>
+<td class="s9 cl rt"> 99.12</td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+<td class="s9 cl rt"> 98.25</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<hr>
+Since this is the module's only instance, the coverage report is the same as for the module.</div>
+<div class="ui-layout-center">
+<div class="ui-layout-center-inner-center">
+<div name='tag_axi_lite_regfile'>
+<a name="Line"></a>
+Line Coverage for Module : <a href="mod1.html" >axi_lite_regfile</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="4" width="82">
+<tr><th></th><th>Line No.</th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s10"><td class="lf">TOTAL</td><td></td><td>50</td><td>50</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>97</td><td>5</td><td>5</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>111</td><td>5</td><td>5</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>125</td><td>4</td><td>4</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>162</td><td>9</td><td>9</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>197</td><td>8</td><td>8</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>232</td><td>5</td><td>5</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>246</td><td>4</td><td>4</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>260</td><td>10</td><td>10</td><td>100.00</td></tr>
+</table>
+<pre class="code"><br clear=all>
+96                      
+97         1/1                  if (!ARESETN)
+98         1/1                      axi_awready &lt;= 1'b0;
+99                      
+100        1/1                  else if (~axi_awready &amp;&amp; axi.AWVALID &amp;&amp; axi.WVALID)
+101        1/1                      axi_awready &lt;= 1'b1;
+102                     
+103                             else
+104        1/1                      axi_awready &lt;= 1'b0;
+105                     
+106                         end
+107                     
+108                     
+109                         always_ff @(posedge ACLK or negedge ARESETN) begin
+110                     
+111        1/1                  if (!ARESETN)
+112        1/1                      axi_wready &lt;= 1'b0;
+113                     
+114        1/1                  else if (~axi_wready &amp;&amp; axi.WVALID &amp;&amp; axi.AWVALID)
+115        1/1                      axi_wready &lt;= 1'b1;
+116                     
+117                             else
+118        1/1                      axi_wready &lt;= 1'b0;
+119                     
+120                         end
+121                     
+122                     
+123                         always_ff @(posedge ACLK or negedge ARESETN) begin
+124                     
+125        1/1                  if (!ARESETN)
+126        1/1                      axi_awaddr &lt;= '0;
+127                     
+128        1/1                  else if (~axi_awready &amp;&amp; axi.AWVALID &amp;&amp; axi.WVALID)
+129        1/1                      axi_awaddr &lt;= axi.AWADDR;
+                        MISSING_ELSE
+130                     
+131                         end
+132                     
+133                     
+134                         //==============================================================
+135                         // Write handshake
+136                         //==============================================================
+137                     
+138                         logic reg_wren;
+139                     
+140                         assign reg_wren =
+141                             axi_awready &amp;&amp;
+142                             axi.AWVALID &amp;&amp;
+143                             axi_wready &amp;&amp;
+144                             axi.WVALID;
+145                     
+146                     
+147                         //==============================================================
+148                         // Read current register value using rs2
+149                         //==============================================================
+150                     
+151                         assign rs2_addr = axi_awaddr[REG_BITS+1:2];
+152                     
+153                     
+154                         //==============================================================
+155                         // WSTRB merge
+156                         //==============================================================
+157                     
+158                         logic [31:0] wdata_masked;
+159                     
+160                         always_comb begin
+161                     
+162        1/1                  wdata_masked = rs2_data;
+163                     
+164        1/1                  if (axi.WSTRB[0])
+165        1/1                      wdata_masked[7:0] = axi.WDATA[7:0];
+                        MISSING_ELSE
+166                     
+167        1/1                  if (axi.WSTRB[1])
+168        1/1                      wdata_masked[15:8] = axi.WDATA[15:8];
+                        MISSING_ELSE
+169                     
+170        1/1                  if (axi.WSTRB[2])
+171        1/1                      wdata_masked[23:16] = axi.WDATA[23:16];
+                        MISSING_ELSE
+172                     
+173        1/1                  if (axi.WSTRB[3])
+174        1/1                      wdata_masked[31:24] = axi.WDATA[31:24];
+                        MISSING_ELSE
+175                     
+176                         end
+177                     
+178                     
+179                         assign rd_addr = axi_awaddr[REG_BITS+1:2];
+180                         assign rd_data = wdata_masked;
+181                         assign reg_wr  = reg_wren;
+182                     
+183                     
+184                         assign axi.AWREADY = axi_awready;
+185                         assign axi.WREADY  = axi_wready;
+186                     
+187                     
+188                         //==================================================================
+189                         // Write response
+190                         //==================================================================
+191                     
+192                         logic       axi_bvalid;
+193                         logic [1:0] axi_bresp;
+194                     
+195                         always_ff @(posedge ACLK or negedge ARESETN) begin
+196                     
+197        1/1                  if (!ARESETN) begin
+198        1/1                      axi_bvalid &lt;= 1'b0;
+199        1/1                      axi_bresp  &lt;= 2'b00;
+200                             end
+201                     
+202        1/1                  else if (reg_wren) begin
+203        1/1                      axi_bvalid &lt;= 1'b1;
+204        1/1                      axi_bresp  &lt;= 2'b00;
+205                             end
+206                     
+207        1/1                  else if (axi_bvalid &amp;&amp; axi.BREADY) begin
+208        1/1                      axi_bvalid &lt;= 1'b0;
+209                             end
+                        MISSING_ELSE
+210                     
+211                         end
+212                     
+213                     
+214                         assign axi.BVALID = axi_bvalid;
+215                         assign axi.BRESP  = axi_bresp;
+216                     
+217                     
+218                         //==================================================================
+219                         // READ CHANNEL
+220                         //==================================================================
+221                     
+222                         logic                  axi_arready;
+223                         logic [ADDR_WIDTH-1:0] axi_araddr;
+224                     
+225                         logic                  axi_rvalid;
+226                         logic [DATA_WIDTH-1:0] axi_rdata;
+227                         logic [1:0]            axi_rresp;
+228                     
+229                     
+230                         always_ff @(posedge ACLK or negedge ARESETN) begin
+231                     
+232        1/1                  if (!ARESETN)
+233        1/1                      axi_arready &lt;= 1'b0;
+234                     
+235        1/1                  else if (~axi_arready &amp;&amp; axi.ARVALID)
+236        1/1                      axi_arready &lt;= 1'b1;
+237                     
+238                             else
+239        1/1                      axi_arready &lt;= 1'b0;
+240                     
+241                         end
+242                     
+243                     
+244                         always_ff @(posedge ACLK or negedge ARESETN) begin
+245                     
+246        1/1                  if (!ARESETN)
+247        1/1                      axi_araddr &lt;= '0;
+248                     
+249        1/1                  else if (~axi_arready &amp;&amp; axi.ARVALID)
+250        1/1                      axi_araddr &lt;= axi.ARADDR;
+                        MISSING_ELSE
+251                     
+252                         end
+253                     
+254                     
+255                         assign rs1_addr = axi_araddr[REG_BITS+1:2];
+256                     
+257                     
+258                         always_ff @(posedge ACLK or negedge ARESETN) begin
+259                     
+260        1/1                  if (!ARESETN) begin
+261        1/1                      axi_rvalid &lt;= 1'b0;
+262        1/1                      axi_rresp  &lt;= 2'b00;
+263        1/1                      axi_rdata  &lt;= 32'd0;
+264                             end
+265                     
+266        1/1                  else if (axi_arready &amp;&amp;
+267                                      axi.ARVALID &amp;&amp;
+268                                      ~axi_rvalid) begin
+269                     
+270        1/1                      axi_rvalid &lt;= 1'b1;
+271        1/1                      axi_rresp  &lt;= 2'b00;
+272        1/1                      axi_rdata  &lt;= rs1_data;
+273                     
+274                             end
+275                     
+276        1/1                  else if (axi_rvalid &amp;&amp; axi.RREADY) begin
+277        1/1                      axi_rvalid &lt;= 1'b0;
+278                             end
+                        MISSING_ELSE
+</pre>
+<hr>
+<a name="Cond"></a>
+Cond Coverage for Module : <a href="mod1.html" >axi_lite_regfile</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="3" width="82">
+<tr><th></th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s8"><td class="lf">Conditions</td><td>33</td><td>28</td><td>84.85</td></tr>
+<tr class="s8"><td class="lf">Logical</td><td>33</td><td>28</td><td>84.85</td></tr>
+<tr class="wht"><td class="lf">Non-Logical</td><td>0</td><td>0</td><td></td></tr>
+<tr class="wht"><td class="lf">Event</td><td>0</td><td>0</td><td></td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       100
+ EXPRESSION (((~axi_awready)) &amp;&amp; axi.AWVALID &amp;&amp; axi.WVALID)
+             --------1-------    -----2-----    -----3----
+</pre>
+<table class="noborder">
+<col span="3" width="40">
+<tr><th>-1-</th><th>-2-</th><th>-3-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       114
+ EXPRESSION (((~axi_wready)) &amp;&amp; axi.WVALID &amp;&amp; axi.AWVALID)
+             -------1-------    -----2----    -----3-----
+</pre>
+<table class="noborder">
+<col span="3" width="40">
+<tr><th>-1-</th><th>-2-</th><th>-3-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       128
+ EXPRESSION (((~axi_awready)) &amp;&amp; axi.AWVALID &amp;&amp; axi.WVALID)
+             --------1-------    -----2-----    -----3----
+</pre>
+<table class="noborder">
+<col span="3" width="40">
+<tr><th>-1-</th><th>-2-</th><th>-3-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       140
+ EXPRESSION (axi_awready &amp;&amp; axi.AWVALID &amp;&amp; axi_wready &amp;&amp; axi.WVALID)
+             -----1-----    -----2-----    -----3----    -----4----
+</pre>
+<table class="noborder">
+<col span="4" width="40">
+<tr><th>-1-</th><th>-2-</th><th>-3-</th><th>-4-</th><th>Status</th></tr>
+<tr class="uRed"><td>0</td><td>1</td><td>1</td><td>1</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td>0</td><td>1</td><td>1</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td>1</td><td>0</td><td>1</td><td class="lf">Not Covered</td></tr>
+<tr class="uRed"><td>1</td><td>1</td><td>1</td><td>0</td><td class="lf">Not Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       207
+ EXPRESSION (axi_bvalid &amp;&amp; axi.BREADY)
+             -----1----    -----2----
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       235
+ EXPRESSION (((~axi_arready)) &amp;&amp; axi.ARVALID)
+             --------1-------    -----2-----
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       249
+ EXPRESSION (((~axi_arready)) &amp;&amp; axi.ARVALID)
+             --------1-------    -----2-----
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       266
+ EXPRESSION (axi_arready &amp;&amp; axi.ARVALID &amp;&amp; ((~axi_rvalid)))
+             -----1-----    -----2-----    -------3-------
+</pre>
+<table class="noborder">
+<col span="3" width="40">
+<tr><th>-1-</th><th>-2-</th><th>-3-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uRed"><td>1</td><td>1</td><td>0</td><td class="lf">Not Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       276
+ EXPRESSION (axi_rvalid &amp;&amp; axi.RREADY)
+             -----1----    -----2----
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<hr>
+<a name="Toggle"></a>
+Toggle Coverage for Module : <a href="mod1.html" >axi_lite_regfile</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s6">
+<td>Totals</td>
+<td class="rt">21</td>
+<td class="rt">13</td>
+<td class="rt">61.90 </td>
+</tr><tr class="s9">
+<td>Total Bits</td>
+<td class="rt">404</td>
+<td class="rt">384</td>
+<td class="rt">95.05 </td>
+</tr><tr class="s9">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">202</td>
+<td class="rt">196</td>
+<td class="rt">97.03 </td>
+</tr><tr class="s9">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">202</td>
+<td class="rt">188</td>
+<td class="rt">93.07 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s5">
+<td>Ports</td>
+<td class="rt">2</td>
+<td class="rt">1</td>
+<td class="rt">50.00 </td>
+</tr><tr class="s7">
+<td>Port Bits</td>
+<td class="rt">4</td>
+<td class="rt">3</td>
+<td class="rt">75.00 </td>
+</tr><tr class="s10">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s5">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">2</td>
+<td class="rt">1</td>
+<td class="rt">50.00 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s6">
+<td>Signals</td>
+<td class="rt">19</td>
+<td class="rt">12</td>
+<td class="rt">63.16 </td>
+</tr><tr class="s9">
+<td>Signal Bits</td>
+<td class="rt">400</td>
+<td class="rt">381</td>
+<td class="rt">95.25 </td>
+</tr><tr class="s9">
+<td nowrap>Signal Bits 0->1</td>
+<td class="rt">200</td>
+<td class="rt">194</td>
+<td class="rt">97.00 </td>
+</tr><tr class="s9">
+<td nowrap>Signal Bits 1->0</td>
+<td class="rt">200</td>
+<td class="rt">187</td>
+<td class="rt">93.50 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Direction</td></tr><tr>
+<td>ACLK</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>ARESETN</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Signal Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td></tr><tr>
+<td>reg_wr</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rs1_addr[3:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rs1_addr[4]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rs2_addr[3:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rs2_addr[4]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rd_addr[3:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rd_addr[4]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rd_data[31:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rs1_data[31:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rs2_data[31:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>axi_awready</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>axi_wready</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>axi_awaddr[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>axi_awaddr[5:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>axi_awaddr[6]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>reg_wren</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>wdata_masked[31:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>axi_bvalid</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>axi_bresp[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>axi_arready</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>axi_araddr[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>axi_araddr[5:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>axi_araddr[6]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>axi_rvalid</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>axi_rdata[31:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>axi_rresp[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center-inner-north">
+<div id="center-bread-crumb" class="breadCrumb module urg-margin-bottom">
+  <ul name="inst_tag_1">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Cond">Cond</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+  </ul>
+  <ul name="tag_axi_lite_regfile">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Cond">Cond</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>

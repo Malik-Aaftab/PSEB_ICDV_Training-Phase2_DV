@@ -1,0 +1,20 @@
+<session version="1.1" release="L-2016.06" timestp="2026-09-06 09:35:05 GMT">
+  <hvp>
+    <datadef>
+      <metdef name="Line" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Cond" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Toggle" type="ratio" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Line" value="410/435" />
+    <metric name="Cond" value="28/33" />
+    <metric name="Toggle" value="844/896" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+  </scope>
+  </old_coverage>
+</session>
